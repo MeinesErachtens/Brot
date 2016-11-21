@@ -35,6 +35,7 @@ h4 {
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 20px;
+  text-align: center;
 }
 
 h5 {
@@ -42,6 +43,7 @@ h5 {
 	color: #FFF;
 	font-weight: bold;
 	text-transform: uppercase;
+  text-align: center;
 }
 header {
     background: rgba(0, 51, 102,.7);					/* Hintergrundfarbe des Headers */
