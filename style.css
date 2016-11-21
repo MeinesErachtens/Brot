@@ -1,9 +1,5 @@
-html {
-    left: 0;
-}
-
 header {
-    background: gray;					/* Hintergrundfarbe des Headers */
+    background: gray;				  /* Hintergrundfarbe des Headers */
     width: 100%; 						/* Header geht �ber die gesamte Bildschirmbreite */
     position: fixed;					/* Fixed Header */
     left: 0;							/* negieren des Abstandsstreifen an den Seiten */
@@ -20,7 +16,7 @@ nav li {
 }
 
 nav li a {
-	
+	#jkkk
 }
 
 
