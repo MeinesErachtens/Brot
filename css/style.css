@@ -44,6 +44,9 @@ nav li a {
     padding-left: 1%;
 }
 
+.video {
+    margin: 0 auto;
+}
 
 .main_content{
     position: fixed;					/* Fixed Header */					
