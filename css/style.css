@@ -2,12 +2,50 @@ html, body {
     width: 100%;    /* Body geht ueber die gesamte Bildschirmbreite */
     background-color: rgba(0, 51, 102,.7);
     margin: 0;
-    color:#FFF; 
-    font-family: arial;
+    color:#FFF;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+h1 {
+	/*font-family: 'Crete Round', serif;*/
+	font-weight: bold;
+	color: #FFF;
+	font-size: 55px;
+	margin-bottom: 20px;
 }
 
+h2 {
+	color: #FFF;
+	font-size: 45px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 30px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-size: 24px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+h5 {
+	font-size: 15px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+}
 header {
-    background: rgba(0, 51, 102,.7);					/* Hintergrundfarbe des Headers */									
+    background: rgba(0, 51, 102,.7);					/* Hintergrundfarbe des Headers */
     position: fixed;
     display: block;
     width: 100%;
@@ -30,8 +68,8 @@ nav li {
  }
 
 nav li a {
-	color:#FFF;  
-    font-size: 20pt;     
+	color:#FFF;
+    font-size: 20pt;
     font-weight: bold;
     padding-right: 10px;
     text-decoration: none;
@@ -60,13 +98,11 @@ nav li a:hover {
     padding-top: 75px;
 }
 
-.main_content{					
-   // background: rgba(100, 255, 255,.2);	
+.main_content{
+   // background: rgba(100, 255, 255,.2);
 }
 
 footer {
 	height: 5%;
     background: rgba(102, 153, 255,.5);
 }
-
-
