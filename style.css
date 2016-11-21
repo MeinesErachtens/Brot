@@ -1,0 +1,30 @@
+header {
+    background: gray;					/* Hintergrundfarbe des Headers */
+    width: 100%; 						/* Header geht über die gesamte Bildschirmbreite */
+    position: fixed;					/* Fixed Header */
+    left: 0;							/* negieren des Abstandsstreifen an den Seiten */
+    top: 0;								/* negieren des Abstandsstreifen oben */
+}
+
+nav {
+	
+}
+
+nav li {
+	display: inline; 					/* li nebeneinander anzeigen */
+	list-style-type: none; 				/* ohne Aufzählungspunkte */
+}
+
+nav li a {
+	
+}
+
+
+footer {
+	
+}
+
+.main_content{
+	background: #E20074;					/* Hintergrundfarbe des Headers */
+    width: 100%; 						/* Header geht über die gesamte Bildschirmbreite */	
+}
