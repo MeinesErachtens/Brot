@@ -1,20 +1,11 @@
-body {
-    position: absolute;
-    top: 0;         /* negieren des Abstandsstreifen oben */
-    left: 0;        /* negieren des Abstandsstreifen an den Seiten */
+html, body {
     width: 100%;    /* Body geht ueber die gesamte Bildschirmbreite */
     background-color: rgb(230, 238, 255,.7);
+    margin: 0;
 }
 
 header {
-    background: rgba(102, 153, 255,.5);					/* Hintergrundfarbe des Headers */					
-    position: fixed;					              /* Fixed Header */					
-    width: 100%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;    
-    height: 10%;
+    background: rgba(102, 153, 255,.5);					/* Hintergrundfarbe des Headers */									
 }
 
 nav {
@@ -31,8 +22,8 @@ nav li {
  }
 
 nav li a {
-	color:#FFF;   /* Farbe orange */
-    font-size: 20pt;     /* Größe 28pt   */
+	color:#FFF;   
+    font-size: 20pt;     
     font-weight: bold;
     font-family: arial;
     padding-right: 10px;
@@ -40,28 +31,22 @@ nav li a {
 }
 
 .logo {
-    height: 100%;
+    height: 75px;
     padding-left: 1%;
 }
 
 .video {
-    margin: 0 auto;
+    display: block;
+    margin: auto;
 }
 
-.main_content{
-    position: fixed;					/* Fixed Header */					
-    height: 100%;
-    width: 100%;
-    top: 10%;
-    left: 0;
-    right: 0; 
+.main_content{					
     background: rgba(100, 255, 255,.2);	
 }
 
 footer {
-	position: fixed;
 	height:5%;
-	bottom: 0;
+    background: rgba(102, 153, 255,.5);
 }
 
 
