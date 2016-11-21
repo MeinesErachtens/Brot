@@ -8,7 +8,7 @@ body {
 
 header {
     background: rgba(102, 153, 255,.5);					/* Hintergrundfarbe des Headers */					
-    position: fixed;					/* Fixed Header */					
+    position: fixed;					              /* Fixed Header */					
     width: 100%;
     top: 0;
     left: 0;
@@ -26,17 +26,22 @@ nav li {
 	list-style-type: none; 				/* ohne Aufz�hlungspunkte */
 }
  nav ul {
-     float: auto;
+     float: right;
+     padding-right: 1%;
  }
 
 nav li a {
 	color:#FFF;   /* Farbe orange */
     font-size: 20pt;     /* Größe 28pt   */
-    font-family: arial,
+    font-weight: bold;
+    font-family: arial;
+    padding-right: 10px;
+    text-decoration: none;
 }
 
 .logo {
-    height: 75px;
+    height: 100%;
+    padding-left: 1%;
 }
 
 
@@ -47,7 +52,7 @@ nav li a {
     top: 10%;
     left: 0;
     right: 0; 
-    background: rgba(100, 255, 255,.2);			/* Hintergrundfarbe des Headers */
+    background: rgba(100, 255, 255,.2);	
 }
 
 footer {
