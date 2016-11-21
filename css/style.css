@@ -7,29 +7,30 @@ html, body {
     width: 100%;
     color: #FFF;
     background-color: rgba(0, 51, 102, .7);
-    margin: 0;
-    color: #FFF;
     font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 h1 {
     /*font-family: 'Crete Round', serif;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
     font-weight: bold;
     color: #FFF;
     font-size: 55px;
     margin-bottom: 20px;
     text-align: center;
+	text-transform: uppercase;
 }
 
 h2 {
     color: #FFF;
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 25px;
     color: #FFF;
     font-weight: bold;
     text-transform: uppercase;
@@ -37,20 +38,17 @@ h3 {
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 20px;
     color: #FFF;
     font-weight: bold;
+	font-style: italic;
     text-transform: uppercase;
-    margin-bottom: 20px;
     text-align: center;
 }
 
-h5 {
-    font-size: 15px;
-    color: #FFF;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
+.src_quote {
+	text-align: center;
+	font-size: x-small;
 }
 
 header {
@@ -75,8 +73,9 @@ nav li {
 }
 
 nav ul {
+	padding-top:1.5%;
     float: right;
-    padding-right: 1%;
+    padding-right: 5%;
 }
 
 nav li a {
@@ -85,6 +84,7 @@ nav li a {
     font-weight: bold;
     padding-right: 10px;
     text-decoration: none;
+	text-transform: uppercase;
 }
 
 nav li a:hover {
@@ -93,7 +93,7 @@ nav li a:hover {
 
 .logo {
     height: 100%;
-    padding-left: 1%;
+    padding-left: 3%;
 }
 
 .video {
@@ -108,22 +108,29 @@ nav li a:hover {
 
 .content {
     padding-top: 75px;
-    margin: 0;
-    clear: both;
 }
 
 div.main_content:nth-child(odd) {
-    background: lightgray;
+	
+	padding-bottom: 20px;
+	padding-right:5%;
+	padding-left: 5%;
 }
 
 
 div.main_content:nth-child(even) {
-    background: darkgray;
+	background-color: rgba(0, 51, 102, .5);
+	padding-bottom: 20px;
+	padding-right:5%;
+	padding-left: 5%;
 }
 
 footer {
+	background-color: rgba(0, 51, 102, .7);
     height: 5%;
-    background: rgba(102, 153, 255, .5);
+	padding-right:5%;
+	padding-left: 5%;
+	padding-bottom: 3%;
 }
 
 footer ul li {
