@@ -1,7 +1,7 @@
 html, body {
     width: 100%;    /* Body geht ueber die gesamte Bildschirmbreite */
-    background-color: rgba(0, 51, 102,.7);
-    margin: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     color:#FFF; 
     font-family: arial;
 }
@@ -58,11 +58,22 @@ nav li a:hover {
 
 .content {
     padding-top: 75px;
+    margin: 0;
+    clear: both;
 }
 
-.main_content{					
-   // background: rgba(100, 255, 255,.2);	
+div.main_content:nth-child(odd){
+    clear: both;
+    margin: 0;				
+    background: lightgray;	
 }
+
+div.main_content:nth-child(even){
+    clear: both;
+    margin: 0;					
+    background: darkgray;	
+}
+
 
 footer {
 	height: 5%;
