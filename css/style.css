@@ -43,7 +43,7 @@ footer {
     top: 10%;
     left: 0;
     right: 0; 
-	background: #E20074;				/* Hintergrundfarbe des Headers */
+    background: rgba(100, 255, 255,.5);			/* Hintergrundfarbe des Headers */
 }
 
 
