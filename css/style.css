@@ -1,9 +1,14 @@
+html {
+    left: 0;
+}
+
 header {
     background: gray;					/* Hintergrundfarbe des Headers */
-    width: 100%; 						/* Header geht über die gesamte Bildschirmbreite */
+    width: 100%; 						/* Header geht ï¿½ber die gesamte Bildschirmbreite */
     position: fixed;					/* Fixed Header */
     left: 0;							/* negieren des Abstandsstreifen an den Seiten */
     top: 0;								/* negieren des Abstandsstreifen oben */
+    opacity: 0.6;
 }
 
 nav {
@@ -12,7 +17,7 @@ nav {
 
 nav li {
 	display: inline; 					/* li nebeneinander anzeigen */
-	list-style-type: none; 				/* ohne Aufzählungspunkte */
+	list-style-type: none; 				/* ohne Aufzï¿½hlungspunkte */
 }
 
 nav li a {
@@ -26,5 +31,5 @@ footer {
 
 .main_content{
 	background: #E20074;				/* Hintergrundfarbe des Headers */
-    width: 100%; 						/* Header geht über die gesamte Bildschirmbreite */	
+    width: 100%; 						/* Header geht ï¿½ber die gesamte Bildschirmbreite */	
 }
