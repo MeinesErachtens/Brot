@@ -33,9 +33,7 @@ nav li a {
 }
 
 
-footer {
-	
-}
+
 
 .main_content{
     position: fixed;					/* Fixed Header */					
@@ -45,6 +43,12 @@ footer {
     left: 0;
     right: 0; 
 	background: #E20074;				/* Hintergrundfarbe des Headers */
+}
+
+footer {
+	position: fixed;
+	height:5%;
+	bottom: 0;
 }
 
 
