@@ -25,6 +25,9 @@ nav li {
 	display: inline; 					/* li nebeneinander anzeigen */
 	list-style-type: none; 				/* ohne Aufz�hlungspunkte */
 }
+ nav ul {
+     float: auto;
+ }
 
 nav li a {
 	color:#FFF;   /* Farbe orange */
@@ -32,7 +35,9 @@ nav li a {
     font-family: arial,
 }
 
-
+.logo {
+    height: 75px;
+}
 
 
 .main_content{
