@@ -106,3 +106,10 @@ footer {
 	height: 5%;
     background: rgba(102, 153, 255,.5);
 }
+
+
+footer ul li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 10px;
+}
