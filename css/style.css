@@ -9,6 +9,9 @@ html, body {
 header {
     background: rgba(102, 153, 255,.5);					/* Hintergrundfarbe des Headers */									
     position: fixed;
+    width: 100%;
+    margin: 0;
+    top: 0;
 }
 
 nav {
@@ -39,6 +42,10 @@ nav li a:hover {
 .logo {
     height: 75px;
     padding-left: 1%;
+}
+
+.head_spacing{
+    height:10%;
 }
 
 .video {
