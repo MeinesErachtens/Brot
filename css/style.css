@@ -33,17 +33,22 @@ nav li a {
 }
 
 
-footer {
-	
-}
+
 
 .main_content{
     position: fixed;					/* Fixed Header */					
+    height: 100%
     width: 100%;
     top: 10%;
     left: 0;
     right: 0; 
     background: rgba(100, 255, 255,.5);			/* Hintergrundfarbe des Headers */
+}
+
+footer {
+	position: fixed;
+	height:5%;
+	bottom: 0;
 }
 
 
