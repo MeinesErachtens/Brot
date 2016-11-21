@@ -61,11 +61,11 @@ nav li a:hover {
 }
 
 .main_content{					
-    background: rgba(100, 255, 255,.2);	
+   // background: rgba(100, 255, 255,.2);	
 }
 
 footer {
-	height:4000px;
+	height: 5%;
     background: rgba(102, 153, 255,.5);
 }
 
