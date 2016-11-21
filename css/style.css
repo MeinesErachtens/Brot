@@ -37,7 +37,7 @@ nav li a {
 
 .main_content{
     position: fixed;					/* Fixed Header */					
-    height: 100%
+    height: 100%;
     width: 100%;
     top: 10%;
     left: 0;
