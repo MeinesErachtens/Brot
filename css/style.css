@@ -18,7 +18,7 @@ header {
 }
 
 nav {
-	
+	display: inline;
 }
 
 nav li {
@@ -42,7 +42,7 @@ nav li a {
     top: 10%;
     left: 0;
     right: 0; 
-    background: rgba(100, 255, 255,.5);			/* Hintergrundfarbe des Headers */
+    background: rgba(100, 255, 255,.2);			/* Hintergrundfarbe des Headers */
 }
 
 footer {
