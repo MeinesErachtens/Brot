@@ -1,35 +1,59 @@
-html {
-    left: 0;
+body {
+    position: absolute;
+    top: 0;         /* negieren des Abstandsstreifen oben */
+    left: 0;        /* negieren des Abstandsstreifen an den Seiten */
+    width: 100%;    /* Body geht ueber die gesamte Bildschirmbreite */
+    background-color: rgb(230, 238, 255,.7);
 }
 
 header {
-    background: rgba(102, 153, 255,.5);					/* Hintergrundfarbe des Headers */
-    width: 100%; 						/* Header geht �ber die gesamte Bildschirmbreite */
-    position: fixed;					/* Fixed Header */
-    left: 0;							/* negieren des Abstandsstreifen an den Seiten */
-    top: 0;								/* negieren des Abstandsstreifen oben */
-   /* opacity: 0.6; */
+    background: rgba(102, 153, 255,.5);					/* Hintergrundfarbe des Headers */					
+    position: fixed;					/* Fixed Header */					
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;    
+    height: 10%;
 }
 
 nav {
-	
+	display: inline;
 }
 
 nav li {
 	display: inline; 					/* li nebeneinander anzeigen */
 	list-style-type: none; 				/* ohne Aufz�hlungspunkte */
 }
+ nav ul {
+     float: auto;
+ }
 
 nav li a {
-	
+	color:#FFF;   /* Farbe orange */
+    font-size: 20pt;     /* Größe 28pt   */
+    font-family: arial,
 }
 
-
-footer {
-	
+.logo {
+    height: 75px;
 }
+
 
 .main_content{
-	background: #E20074;				/* Hintergrundfarbe des Headers */
-    width: 100%; 						/* Header geht �ber die gesamte Bildschirmbreite */	
+    position: fixed;					/* Fixed Header */					
+    height: 100%;
+    width: 100%;
+    top: 10%;
+    left: 0;
+    right: 0; 
+    background: rgba(100, 255, 255,.2);			/* Hintergrundfarbe des Headers */
 }
+
+footer {
+	position: fixed;
+	height:5%;
+	bottom: 0;
+}
+
+
