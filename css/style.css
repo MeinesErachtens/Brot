@@ -1,52 +1,65 @@
-html, body {
-    width: 100%;    /* Body geht ueber die gesamte Bildschirmbreite */
-    background-color: rgba(0, 51, 102,.7);
+    * {
+    padding: 0;
     margin: 0;
-    color:#FFF;
+}
+
+html,
+body {
+    width: 100%;
+    /* Body geht ueber die gesamte Bildschirmbreite */
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #FFF;
+    background-color: rgba(0, 51, 102, .7);
+    margin: 0;
+    color: #FFF;
     font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
+
 h1 {
-	/*font-family: 'Crete Round', serif;*/
-	font-weight: bold;
-	color: #FFF;
-	font-size: 55px;
-	margin-bottom: 20px;
-  text-align: center;
+    /*font-family: 'Crete Round', serif;*/
+    font-weight: bold;
+    color: #FFF;
+    font-size: 55px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 h2 {
-	color: #FFF;
-	font-size: 40px;
-	text-transform: uppercase;
-	margin-bottom: 20px;
+    color: #FFF;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 h3 {
-	font-size: 30px;
-	color: #FFF;
-	font-weight: bold;
-	text-transform: uppercase;
-	margin-bottom: 20px;
+    font-size: 30px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 h4 {
-	font-size: 24px;
-	color: #FFF;
-	font-weight: bold;
-	text-transform: uppercase;
-	margin-bottom: 20px;
-  text-align: center;
+    font-size: 24px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 h5 {
-	font-size: 15px;
-	color: #FFF;
-	font-weight: bold;
-	text-transform: uppercase;
-  text-align: center;
+    font-size: 15px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
 }
+
 header {
-    background: rgba(0, 51, 102,.7);					/* Hintergrundfarbe des Headers */
+    background: rgba(0, 51, 102, .7);
+    /* Hintergrundfarbe des Headers */
     position: fixed;
     display: block;
     width: 100%;
@@ -56,20 +69,23 @@ header {
 }
 
 nav {
-	display: inline;
+    display: inline;
 }
 
 nav li {
-	display: inline; 					/* li nebeneinander anzeigen */
-	list-style-type: none; 				/* ohne Aufz�hlungspunkte */
+    display: inline;
+    /* li nebeneinander anzeigen */
+    list-style-type: none;
+    /* ohne Aufz�hlungspunkte */
 }
- nav ul {
-     float: right;
-     padding-right: 1%;
- }
+
+nav ul {
+    float: right;
+    padding-right: 1%;
+}
 
 nav li a {
-	color:#FFF;
+    color: #FFF;
     font-size: 20pt;
     font-weight: bold;
     padding-right: 10px;
@@ -97,20 +113,28 @@ nav li a:hover {
 
 .content {
     padding-top: 75px;
+    margin: 0;
+    clear: both;
 }
 
-.main_content{
-   // background: rgba(100, 255, 255,.2);
-}
-
-footer {
-	height: 5%;
-    background: rgba(102, 153, 255,.5);
-}
-
-
-footer ul li {
-    display: inline;
-    list-style-type: none;
-    padding-right: 10px;
-}
+div.main_content:nth-child(odd) {
+    clear: both;
+    margin: 0;
+    background: lightgray;
+    .main_content {
+        // background: rgba(100, 255, 255,.2);
+    }
+    div.main_content:nth-child(even) {
+        clear: both;
+        margin: 0;
+        background: darkgray;
+    }
+    footer {
+        height: 5%;
+        background: rgba(102, 153, 255, .5);
+    }
+    footer ul li {
+        display: inline;
+        list-style-type: none;
+        padding-right: 10px;
+    }
