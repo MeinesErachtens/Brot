@@ -1,13 +1,56 @@
 html, body {
     width: 100%;    /* Body geht ueber die gesamte Bildschirmbreite */
+
     margin: 0 !important;
     padding: 0 !important;
     color:#FFF; 
-    font-family: arial;
+    background-color: rgba(0, 51, 102,.7);
+    margin: 0;
+    color:#FFF;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+h1 {
+	/*font-family: 'Crete Round', serif;*/
+	font-weight: bold;
+	color: #FFF;
+	font-size: 55px;
+	margin-bottom: 20px;
+  text-align: center;
 }
 
+h2 {
+	color: #FFF;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 30px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-size: 24px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+  text-align: center;
+}
+
+h5 {
+	font-size: 15px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+  text-align: center;
+}
 header {
-    background: rgba(0, 51, 102,.7);					/* Hintergrundfarbe des Headers */									
+    background: rgba(0, 51, 102,.7);					/* Hintergrundfarbe des Headers */
     position: fixed;
     display: block;
     width: 100%;
@@ -30,8 +73,8 @@ nav li {
  }
 
 nav li a {
-	color:#FFF;  
-    font-size: 20pt;     
+	color:#FFF;
+    font-size: 20pt;
     font-weight: bold;
     padding-right: 10px;
     text-decoration: none;
@@ -62,10 +105,14 @@ nav li a:hover {
     clear: both;
 }
 
+
 div.main_content:nth-child(odd){
     clear: both;
     margin: 0;				
     background: lightgray;	
+
+.main_content{
+   // background: rgba(100, 255, 255,.2);
 }
 
 div.main_content:nth-child(even){
@@ -80,9 +127,9 @@ footer {
     background: rgba(102, 153, 255,.5);
 }
 
+
 footer ul li {
     display: inline;
     list-style-type: none;
     padding-right: 10px;
 }
-
