@@ -5,7 +5,7 @@ var initialOffset = '440';
 var i = time;
 var flag = false;
 var audio = new Audio('audio/output.mp3');
-audio.play();
+
 
 function countdown () {
 	
@@ -24,6 +24,7 @@ function start() {
 		if( flag === false ) {
 			console.log("hi");
 			clearInterval(interval);
+			audio.pause	();
 			i = time;
 			$('#timer').text("Start");
 			$("#circle_gray").css('stroke-dashoffset', 0);
@@ -34,7 +35,7 @@ function start() {
 			clearInterval(interval);
 			
 			
-			
+			audio.play();
 			
 			
 			return;
