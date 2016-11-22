@@ -12,8 +12,8 @@ html, body {
 
 h1 {
     /*font-family: 'Crete Round', serif;*/
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
     font-weight: bold;
     color: #FFF;
     font-size: 55px;
@@ -110,8 +110,16 @@ nav li a:hover {
 }
 
 div.main_content:nth-child(odd) {
-	
-	padding-bottom: 20px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-right:5%;
+	padding-left: 5%;
+}
+
+div.main_content:nth-child(even) {
+	background-color: rgba(0, 51, 102, .3);
+	padding-bottom: 40px;
+	padding-top: 30px;
 	padding-right:5%;
 	padding-left: 5%;
 }
@@ -123,13 +131,6 @@ div.main_content:nth-child(odd) {
 
 .recepie{
 	padding-bottom: 5%;
-}
-
-div.main_content:nth-child(even) {
-	background-color: rgba(0, 51, 102, .3);
-	padding-bottom: 20px;
-	padding-right:5%;
-	padding-left: 5%;
 }
 
 footer {
