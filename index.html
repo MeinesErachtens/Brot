@@ -8,7 +8,6 @@
 		<title>Ich und mein Brot! - Rezepte, Videos, Infos</title>
 		<meta name="description" content="Auf dieser Website berichten wir über die neuesten Forschungergebnisse, Nachrichten und Rezepte auf dem Gebiet des Brot backens">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
@@ -27,9 +26,6 @@
 						<a href="#Rezepte">Rezepte</a>
 					</li>
 					<li>
-						<a href="#Stoppuhr">Stoppuhr</a>
-					</li>
-					<li>
 						<a href="#Audio">Audio</a>
 					</li>
 				</ul>
@@ -38,8 +34,8 @@
 
 
 		<div class="content">
-
 			<div name="Startseite" id="Startseite" class="main_content">
+				<object data="images/logo.svg" type="image/svg+xml" style="float:right"> <!---Fallback---> Ihr Browser kann leider kein svg darstellen! </object>
 				<h1>Startseite</h1>
 				<p>
 					<h4>"Die Menschen brauchen nicht Freiheit, sie brauchen Brot."</h4>
@@ -72,16 +68,22 @@
 
 				<h2>Omas Hefezopf</h2>
 				<div class="recepie">
+					<div>
+					
+					</div>
+					<div>
+						<ul>
+							<li>750 g Mehl</li>
+							<li>125 g Zucker</li>
+							<li>1 Würfel Hefe</li>
+							<li>375 ml Milch</li>
+							<li>100 g Butter</li>
+							<li>1 Prise Salz</li>
+							<li>2 Eier</li>
+						</ul>
+					</div>
 					<h3>Zutaten:</h3>
-					<ul>
-						<li>750 g Mehl</li>
-						<li>125 g Zucker</li>
-						<li>1 Würfel Hefe</li>
-						<li>375 ml Milch</li>
-						<li>100 g Butter</li>
-						<li>1 Prise Salz</li>
-						<li>2 Eier</li>
-					</ul>
+					
 					<h3>Zubereitung:</h3>
 					<p><b>Arbeitszeit: </b>ca. 20 min <b>Ruhezeit: </b>ca. 1 Std. <b>Backzeit: </b>ca. 20 - 30 min</p>
 					<p>
@@ -98,15 +100,25 @@
 				<h2>Graubrot</h2>
 				<div class="recepie">
 					<h3>Zutaten:</h3>
-					<ul>
-						<li>400 g Mehl</li>
-						<li>320 ml Wasser</li>
-						<li>0,25 TL Trockenhefe</li>
-						<li>1,5 TL Salz</li>
-						<li>1 Prise Ascorbinsäure (Vitamin C)</li>
-					</ul>
+					<div class="circle_animation" onClick="countdown()">
+						<span id="timer" class="timer">Start</span>
+						<svg class="circle">
+							<circle id="circle_gray" class="rotating" r="69.85699" cy="81" cx="81" stroke="green" stroke-width="8" fill="none" />
+							Sorry, your browser does not support inline SVG.
+						</svg>
+					</div>
+					<div class="incredients">
+						<ul>
+							<li>400 g Mehl</li>
+							<li>320 ml Wasser</li>
+							<li>0,25 TL Trockenhefe</li>
+							<li>1,5 TL Salz</li>
+							<li>1 Prise Ascorbinsäure (Vitamin C)</li>
+						</ul>
+					</div>
+					
 					<h3>Zubereitung:</h3>
-					<p><b>Arbeitszeit: </b>ca. 15 min <b>Ruhezeit: </b>ca. 18 Std. <b>Backzeit: </b> ca. 45 min</p>
+					<p><b>Arbeitszeit: </b>ca. 15 min <b>Ruhezeit: </b>ca. 18 Std. <b>Backzeit: </b> <span id="time_gray">ca. 1 min</span></p>
 					<p>
 						Mehl, Salz, Vitamin C und Hefe in einer Schüssel mischen. Wasser hinzugeben und mit der Hand verteilen, so dass der Teig komplett durchnässt ist. Die Schüssel mit Folie abdecken und 18 Stunden im kühlen Keller stehen lassen bis sich eine blubbrige Teigmasse
 						gebildet hat.</br>
@@ -151,7 +163,7 @@
 				</div>
 			</div>
 
-
+			
 			<div name="Audio" id="Audio" class="main_content">
 				<h1>Audio</h1>
 				<audio id="audio_with_controls" controls class="audio">
@@ -161,6 +173,13 @@
 				Sie können es unter <a href="#">Link-Addresse</a> abrufen.
 				</audio>
 			</div>
+			
+			
+			<div class="main_content"> <div class="rotating"><--></div></div>
+			
+			
+			
+			
 		</div>
 
 
@@ -181,7 +200,11 @@
             </ul>
             Die Rechte obliegen der ….
         </footer>
-
+		
+		<!-- Einbinden des Javascripts am Ende des Files für Performance -->
+		<script language="javascript" type="text/javascript" src="js/jquery-3.1.1.js"></script>
+		<script language="javascript" type="text/javascript" src="js/custom_javascript.js"></script>
+		
 	</body>
 
 </html>

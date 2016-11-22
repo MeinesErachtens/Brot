@@ -111,15 +111,15 @@ nav li a:hover {
 
 div.main_content:nth-child(odd) {
 	padding-bottom: 50px;
-	padding-top: 30px;
+	padding-top: 50px;
 	padding-right:5%;
 	padding-left: 5%;
 }
 
 div.main_content:nth-child(even) {
 	background-color: rgba(0, 51, 102, .3);
-	padding-bottom: 40px;
-	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 	padding-right:5%;
 	padding-left: 5%;
 }
@@ -146,3 +146,49 @@ footer ul li {
        list-style-type: none;
        padding-right: 10px;
 }
+
+
+
+
+
+
+
+
+
+.circle_animation {
+	float:right;
+	position: relative;
+}
+
+.timer {
+	text-align:center;
+	position: absolute;
+    width: 100%;
+	padding-top:40%;
+	font-size:30px;
+}
+
+.circle {
+	height: 160px;
+	width: 160px;
+	-webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.rotating {
+  stroke-dasharray: 440; /* this value is the pixel circumference of the circle */
+  stroke-dashoffset: 0;
+  transition: all 1s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
