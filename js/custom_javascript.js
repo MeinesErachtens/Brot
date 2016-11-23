@@ -5,7 +5,7 @@ var time = [];
 var initialOffset = '440';
 var i = [];
 var flag = [];
-var audio = new Audio('audio/vivi_jingle');
+var audio = new Audio('audio/BrotistFertigRemix.ogg');
 
 
 function countdown ( name ) {

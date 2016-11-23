@@ -45,6 +45,9 @@ h4 {
     text-align: center;
 }
 
+
+
+
 .src_quote {
 	text-align: center;
 	font-size: x-small;
@@ -112,16 +115,16 @@ nav li a:hover {
 div.main_content:nth-child(odd) {
 	padding-bottom: 50px;
 	padding-top: 50px;
-	padding-right:5%;
-	padding-left: 5%;
+	padding-right:10%;
+	padding-left: 10%;
 }
 
 div.main_content:nth-child(even) {
 	background-color: rgba(0, 51, 102, .3);
 	padding-bottom: 50px;
 	padding-top: 50px;
-	padding-right:5%;
-	padding-left: 5%;
+	padding-right:10%;
+	padding-left: 10%;
 }
 
 .main_content ul {
@@ -136,8 +139,8 @@ div.main_content:nth-child(even) {
 footer {
 	background-color: rgba(0, 51, 102, .7);
     height: 5%;
-	padding-right:5%;
-	padding-left: 5%;
+	padding-right:10%;
+	padding-left: 10%;
 	padding-bottom: 3%;
 }
 
@@ -147,24 +150,44 @@ footer ul li {
        padding-right: 10px;
 }
 
+.clear {
+	clear: both;
+	padding-bottom:30px;
+}
 
 
+/* Erster Block: Zutaten und Bild */
+.incredients_wrapper {
+	float: left;
+	width: 70%
+}
+
+.brot_wrapper {
+	width:30%;
+	float: right;
+}
+
+.brot_image {
+	height: 180px;
+}
 
 
+/* Zweiter Block: Backanleitung */
+.backing_wrapper {
+	
+}
 
 
-
-
+/* Timer Block */
 .circle_animation {
-	float:right;
 	position: relative;
 }
 
 .timer {
-	text-align:center;
+	text-align:left;
+	padding-left: 50px;
+	padding-top: 65px;
 	position: absolute;
-    width: 100%;
-	padding-top:40%;
 	font-size:30px;
 }
 
