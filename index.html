@@ -68,8 +68,12 @@
 
 				<h2>Omas Hefezopf</h2>
 				<div class="recepie">
-					<div>
-					
+					<div class="circle_animation" onClick="countdown('hefe')">
+						<span id="timer_hefe" class="timer">Start</span>
+						<svg class="circle">
+							<circle id="circle_hefe" class="rotating" r="69.85699" cy="81" cx="81" stroke="green" stroke-width="8" fill="none" />
+							Sorry, your browser does not support inline SVG.
+						</svg>
 					</div>
 					<div>
 						<ul>
@@ -85,7 +89,7 @@
 					<h3>Zutaten:</h3>
 					
 					<h3>Zubereitung:</h3>
-					<p><b>Arbeitszeit: </b>ca. 20 min <b>Ruhezeit: </b>ca. 1 Std. <b>Backzeit: </b>ca. 20 - 30 min</p>
+					<p><b>Arbeitszeit: </b>ca. 20 min <b>Ruhezeit: </b>ca. 1 Std. <b>Backzeit: </b><span id="time_hefe">ca. 20 - 30 min</span></p>
 					<p>
 						Das Mehl in eine Schüssel sieben. Danach in eine separate Schüssel 3-4 EL lauwarme Milch mit 1TL Zucker geben und diese in eine kleine Vertiefung ins Mehl geben. Die Hefe mit 1TL Mehl andicken und anschließend mit einem Handtuch bedeckt etwa 10 – 15 min
 						stehen lassen.</br>
@@ -100,14 +104,14 @@
 				<h2>Graubrot</h2>
 				<div class="recepie">
 					<h3>Zutaten:</h3>
-					<div class="circle_animation" onClick="countdown()">
-						<span id="timer" class="timer">Start</span>
+					<div class="circle_animation" onClick="countdown('gray')">
+						<span id="timer_gray" class="timer">Start</span>
 						<svg class="circle">
 							<circle id="circle_gray" class="rotating" r="69.85699" cy="81" cx="81" stroke="green" stroke-width="8" fill="none" />
 							Sorry, your browser does not support inline SVG.
 						</svg>
 					</div>
-					<div class="incredients">
+					<div>
 						<ul>
 							<li>400 g Mehl</li>
 							<li>320 ml Wasser</li>
@@ -118,7 +122,7 @@
 					</div>
 					
 					<h3>Zubereitung:</h3>
-					<p><b>Arbeitszeit: </b>ca. 15 min <b>Ruhezeit: </b>ca. 18 Std. <b>Backzeit: </b> <span id="time_gray">ca. 1 min</span></p>
+					<p><b>Arbeitszeit: </b>ca. 15 min <b>Ruhezeit: </b>ca. 18 Std. <b>Backzeit: </b> <span id="time_gray">ca. 45 min</span></p>
 					<p>
 						Mehl, Salz, Vitamin C und Hefe in einer Schüssel mischen. Wasser hinzugeben und mit der Hand verteilen, so dass der Teig komplett durchnässt ist. Die Schüssel mit Folie abdecken und 18 Stunden im kühlen Keller stehen lassen bis sich eine blubbrige Teigmasse
 						gebildet hat.</br>
@@ -134,19 +138,29 @@
 				<h2>Indisches Naan Brot</h2>
 				<div class="recepie">
 					<h3>Zutaten:</h3>
-					<ul>
-						<li>500 g Mehl</li>
-						<li>150 ml Milch</li>
-						<li>2,5 EL Zucker</li>
-						<li>2 TL Trockenhefe</li>
-						<li>1 TL Backpulver</li>
-						<li>2 EL Pflanzenöl</li>
-						<li>150 ml Vollmilchjoghurt</li>
-						<li>1 Ei</li>
-						<li>1 Prise Salz</li>
-					</ul>
+					<div class="circle_animation" onClick="countdown('naan')">
+						<span id="timer_naan" class="timer">Start</span>
+						<svg class="circle">
+							<circle id="circle_naan" class="rotating" r="69.85699" cy="81" cx="81" stroke="green" stroke-width="8" fill="none" />
+							Sorry, your browser does not support inline SVG.
+						</svg>
+					</div>
+					<div>
+						<ul>
+							<li>500 g Mehl</li>
+							<li>150 ml Milch</li>
+							<li>2,5 EL Zucker</li>
+							<li>2 TL Trockenhefe</li>
+							<li>1 TL Backpulver</li>
+							<li>2 EL Pflanzenöl</li>
+							<li>150 ml Vollmilchjoghurt</li>
+							<li>1 Ei</li>
+							<li>1 Prise Salz</li>
+						</ul>
+					</div>
+					
 					<h3>Zubereitung:</h3>
-					<p><b>Arbeitszeit: </b>ca. 25 min <b>Ruhezeit: </b>ca. 1 Std. <b>Backzeit: </b>ca. 30 min</p>
+					<p><b>Arbeitszeit: </b>ca. 25 min <b>Ruhezeit: </b>ca. 1 Std. <b>Backzeit: </b><span id="time_naan">ca. 30 min</span></p>
 					<p>
 						Zu Beginn einfach die Milch auf Zimmertemperatur in eine Schüssel gießen und 0,5 EL Zucker und Hefe einrühren und ca. 20 Minuten an einem warmen Ort ruhen lassen. Sobald die Hefe sich aufgelöst hat und die Mischung beginnt schaumig zu werden kann weiter
 						gearbeitet werden.</br>
