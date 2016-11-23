@@ -60,7 +60,7 @@ header {
     width: 100%;
     margin: 0;
     top: 0;
-    height: 75px;
+    height: 82px;
 }
 
 nav {
@@ -112,7 +112,7 @@ nav li a:hover {
 }
 
 .content {
-    padding-top: 75px;
+    padding-top: 82px;
 }
 
 div.main_content:nth-child(odd) {
@@ -207,12 +207,29 @@ footer ul li {
   transition: all 1s linear;
 }
 
+#hamburger_icon {
+	display: none;
+	margin-top:16px;
+	margin-right: 6%;
+	float:right;
+	cursor: pointer;
+	height: 49px;
+	position: relative;
+	width: 52px;
+}
 
+#hamburger_icon div {
+	background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 2px 2px 2px 2px;
+    height: 7px;
+    margin-bottom: 11px;
+    width: 50px;
+}
 
-
-
-
-
+#pc_nav {
+	display:none;
+}
 
 
 

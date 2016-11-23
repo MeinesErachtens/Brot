@@ -69,3 +69,36 @@ function dig_time( sec ) {
 	}
 	return minutes +":"+ seconds;
 }
+
+// self invoking function to display the navi either as list (pc) or hamburger icon (mobile)
+(function () {
+	if( screen.width <= 480 ) {     
+		$('#hamburger_icon').css('display', 'block');
+	}
+	else {
+		$('#pc_nav').css('display', 'block');
+	}
+})();
+
+
+
+function navi_appear() {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
