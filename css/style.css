@@ -99,8 +99,11 @@ nav li a:hover {
 }
 
 .video {
-    display: block;
-    margin: auto;
+	width:100%; 
+	max-width:500px; 
+	height:auto;
+	display: block;
+	margin: auto;
 }
 
 .audio {
