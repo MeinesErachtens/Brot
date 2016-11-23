@@ -5,7 +5,7 @@ var time = [];
 var initialOffset = '440';
 var i = [];
 var flag = [];
-var audio = new Audio('audio/output.mp3');
+var audio = new Audio('audio/vivi_jingle');
 
 
 function countdown ( name ) {
