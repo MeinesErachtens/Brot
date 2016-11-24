@@ -74,22 +74,23 @@ function dig_time( sec ) {
 
 
 function navi_appear() {
-	
+	// first hide the hambuger icon
+	$( '#hamburger_icon' ).hide();
+	// slide the main content to the right
+	$( '.container').animate( {left:  '70%'} );
+	// then show the navi as a slide in from the left
+	$( '#mobile_nav' ).animate( {width: 'toggle'});
+	$( '#contentLayer').css( 'display', 'block' );
+
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function navi_disappear() {
+	// slide the navi back (remove)
+	$( '#mobile_nav' ).animate( {width: 'toggle'});
+	// slide the main content back to the left
+	$( '.container').animate( {left:  '0%'} );
+	$( '#contentLayer').css( 'display', 'none' );
+	// then show the hambuger icon
+	$( '#hamburger_icon' ).show();
+}
