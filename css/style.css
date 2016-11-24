@@ -110,7 +110,7 @@ header {
 }
 
 .mob_nav ul {
-	padding: 10px 10px 10px 10px;
+	padding: 20px 10px 10px 20px;
 }
 
 .mob_nav li a {
@@ -121,9 +121,6 @@ header {
 	text-transform: uppercase;
 }
 
-.mob_nav li a:hover {
-    color: grey;
-}
 /* ------------------- */
 
 
@@ -227,8 +224,7 @@ footer ul li {
 }
 
 .timer {
-	text-align:left;
-	padding-left: 50px;
+	padding-left: 45px;
 	padding-top: 65px;
 	position: absolute;
 	font-size:30px;
@@ -277,7 +273,7 @@ footer ul li {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: #3e3c3d;
+    background: #000;
 }
 
 #contentLayer{
